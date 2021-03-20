@@ -4,29 +4,57 @@
     <meta charset="UTF-8">
     <title>Portfólio Sávio Moraes</title>
 
+    <!--Adiciona font-family Montserrat-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
     <!--Aqui vai o CSS-->
     <style>
-      
+      body {
+        background-color: rgb(0, 0, 0, 0.8);
+        color: white;
+      }
+      h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        letter-spacing: 2px;
+      }
+      p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+      }
+      li {
+        font-weight: 100;
+      }
+      .initial-apresentation {
+        font-size: 1.5em;
+      }
+      .proactivity {
+        font-size: 1.2em;
+      }
+      .technology-enthusiast {
+        font-size: 1.2em;
+      }
     </style>
   </head>
 
   <body>
     <h1>Sávio Moreira de Moraes</h1>
     <img src="imgs/foto-savio.jpg" alt="Foto Sávio Moreira de Moraes" width="250px" id="foto-savio">
-    <h3><strong>Brasileiro</strong>, 40 anos. Natural de Niterói-RJ, atualmente residindo em <strong>Itajaí-SC</strong>.</h3>
+    <p class="initial-apresentation"><strong>Brasileiro</strong>, 40 anos. Natural de <strong>Niterói-RJ</strong>, atualmente residindo em <strong>Itajaí-SC</strong>.</p>
     <ol>
       <li>Empatia</li>
       <li>Organização</li>
-      <li><strong>Proatividade</strong></li>
+      <li class="proactivity"><strong>Proatividade</strong></li>
       <li>Assertividade</li>
       <li>Vontade de aprender</li>
-      <li><strong>Entusiasta em tecnologia</strong></li>
+      <li class="technology-enthusiast"><strong>Entusiasta em tecnologia</strong></li>
       <li>Trabalho em equipe</li>
       <li>Respeito e Gentileza</li>
       <li>Criação</li>
       <li>Curiosidade</li>
     </ol>
     <a href="#foto-savio"><h4 id="foto-savio">Foto Sávio Moreira de Moraes</h4></a>
-    <a href="https://odesenvolvedor.com.br/" target="_blank">O Desenvolvedor</a>
+    <a href="https://blog.betrybe.com/" target="_blank">Blog da Trybe</a>
   </body>
 </html>
