@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(0, 0, 0, 0.8);
+    color: white;
+  }
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+  }
+  li {
+    font-weight: 100;
+  }
+  .initial-apresentation {
+    font-size: 1.5em;
+  }
+  .proactivity {
+    font-size: 1.2em;
+  }
+  .technology-enthusiast {
+    font-size: 1.2em;
+  }
