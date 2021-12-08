@@ -1,0 +1,10 @@
+.web {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.web-options {
+  display: flex;
+  margin-left: 25px;
+}

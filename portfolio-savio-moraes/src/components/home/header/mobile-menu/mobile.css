@@ -1,0 +1,9 @@
+.mobile {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-options {
+  display: flex;
+  justify-content: stretch;
+}
