@@ -1,5 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWindowClose } from '@fortawesome/free-solid-svg-icons';
 import { faMale } from '@fortawesome/free-solid-svg-icons';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import { faIdCard } from '@fortawesome/free-solid-svg-icons';
@@ -7,9 +8,13 @@ import { faLaptop } from '@fortawesome/free-solid-svg-icons';
 import './mobile.css';
 
 
-function Mobile() {
+function Mobile({isOpen, setIsOpen}) {
   return (
     <div className="mobile">
+      <div className="close-menu" onClick = { () => setIsOpen(!isOpen)}>
+        <FontAwesomeIcon icon={faWindowClose} size="lg"/>
+      </div>
+      
       <div className="mobile-options">
         <a href="#Perfil"><FontAwesomeIcon icon={faMale} size="lg"/>Perfil</a>
       </div>
