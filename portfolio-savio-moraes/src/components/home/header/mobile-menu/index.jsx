@@ -17,16 +17,16 @@ function Mobile({isOpen, setIsOpen}) {
       
       <div className="mobile-options"></div>
       <div className="mobile-option">
-        <a href="#Perfil"><FontAwesomeIcon icon={faMale} size="lg"/>Perfil</a>
+        <a href="#profile"><FontAwesomeIcon icon={faMale} size="lg"/>Perfil</a>
       </div>
       <div className="mobile-option">
-        <a href="#Trabalhos"><FontAwesomeIcon icon={faBriefcase} size="lg"/>Experências</a>
+        <a href="#works"><FontAwesomeIcon icon={faBriefcase} size="lg"/>Experências</a>
       </div>
       <div className="mobile-option">
-        <a href="#Contatos"><FontAwesomeIcon icon={faIdCard} size="lg"/>Contatos</a>
+        <a href="#contacts"><FontAwesomeIcon icon={faIdCard} size="lg"/>Contatos</a>
       </div>
       <div className="mobile-option">
-        <a href="#Projetos"><FontAwesomeIcon icon={faLaptop} size="lg"/>Projetos</a>
+        <a href="#projects"><FontAwesomeIcon icon={faLaptop} size="lg"/>Projetos</a>
       </div>
     </div>
   )

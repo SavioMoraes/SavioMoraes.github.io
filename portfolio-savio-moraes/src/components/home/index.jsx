@@ -1,7 +1,8 @@
 import React from 'react';
-import Apresentation from './apresentation';
-import Footer from './footer';
 import Header from './header';
+import Apresentation from './apresentation';
+import Main from './main';
+import Footer from './footer';
 import './home.css'
 
 function Home() {
@@ -11,6 +12,9 @@ function Home() {
         <Header />
         <div>
           <Apresentation />
+        </div>
+        <div>
+          <Main />
         </div>
         <div>
           <Footer />

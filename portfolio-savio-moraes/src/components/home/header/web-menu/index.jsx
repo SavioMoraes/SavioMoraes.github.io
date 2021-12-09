@@ -10,16 +10,16 @@ function Web() {
   return (
     <div className="web">
       <div className="web-options">
-        <a href="#Perfil"><FontAwesomeIcon icon={faMale} size="lg" className="web-icons" />Perfil</a>
+        <a href="#profile"><FontAwesomeIcon icon={faMale} size="lg" className="web-icons" />Perfil</a>
       </div>
       <div className="web-options">
-        <a href="#Trabalhos"><FontAwesomeIcon icon={faBriefcase} size="lg" className="web-icons"/>Experências</a>
+        <a href="#works"><FontAwesomeIcon icon={faBriefcase} size="lg" className="web-icons"/>Experências</a>
       </div>
       <div className="web-options">
-        <a href="#Contatos"><FontAwesomeIcon icon={faIdCard} size="lg" className="web-icons"/>Contatos</a>
+        <a href="#contacts"><FontAwesomeIcon icon={faIdCard} size="lg" className="web-icons"/>Contatos</a>
       </div>
       <div className="web-options">
-        <a href="#Projetos"><FontAwesomeIcon icon={faLaptop} size="lg" className="web-icons"/>Projetos</a>
+        <a href="#projects"><FontAwesomeIcon icon={faLaptop} size="lg" className="web-icons"/>Projetos</a>
       </div>
     </div>
   )
