@@ -1,6 +1,7 @@
 import React from 'react';
 import HardSkills from './hardSkills';
 import Projetos from './projetos';
+import Contatos from './contatos';
 import './main.css';
 
 function Main() {
@@ -11,6 +12,9 @@ function Main() {
       </section>
       <section id="projects">
         <Projetos />  
+      </section>
+      <section id="contacts">
+        <Contatos />  
       </section>  
     </div>
   )
