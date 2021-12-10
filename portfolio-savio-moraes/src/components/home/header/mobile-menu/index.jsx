@@ -12,21 +12,22 @@ function Mobile({isOpen, setIsOpen}) {
   return (
     <div className="mobile">
       <div className="close-menu" onClick = { () => setIsOpen(!isOpen)}>
-        <FontAwesomeIcon icon={faWindowClose} size="lg"/>
+        <FontAwesomeIcon icon={faWindowClose}/>
       </div>
       
-      <div className="mobile-options"></div>
-      <div className="mobile-option">
-        <a href="#profile"><FontAwesomeIcon icon={faMale} size="lg"/>Perfil</a>
-      </div>
-      <div className="mobile-option">
-        <a href="#works"><FontAwesomeIcon icon={faBriefcase} size="lg"/>Experências</a>
-      </div>
-      <div className="mobile-option">
-        <a href="#contacts"><FontAwesomeIcon icon={faIdCard} size="lg"/>Contatos</a>
-      </div>
-      <div className="mobile-option">
-        <a href="#projects"><FontAwesomeIcon icon={faLaptop} size="lg"/>Projetos</a>
+      <div className="mobile-options">
+        <div className="mobile-option">
+          <a href="#profile"><FontAwesomeIcon icon={faMale} />Perfil</a>
+        </div>
+        <div className="mobile-option">
+          <a href="#works"><FontAwesomeIcon icon={faBriefcase} />Experências</a>
+        </div>
+        <div className="mobile-option">
+          <a href="#contacts"><FontAwesomeIcon icon={faIdCard} />Contatos</a>
+        </div>
+        <div className="mobile-option">
+          <a href="#projects"><FontAwesomeIcon icon={faLaptop} />Projetos</a>
+        </div>
       </div>
     </div>
   )

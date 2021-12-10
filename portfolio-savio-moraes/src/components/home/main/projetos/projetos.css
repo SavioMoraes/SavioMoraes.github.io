@@ -1,0 +1,18 @@
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex: 1;
+}
+
+.project {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30%;
+  padding: 50px;
+}
+
+img {
+  width: 350px;
+}

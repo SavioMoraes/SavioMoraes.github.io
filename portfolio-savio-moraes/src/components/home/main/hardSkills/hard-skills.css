@@ -1,0 +1,22 @@
+.hard-skills-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(250, 112, 112, 0.767);
+  /* width: max-content; */
+  padding: 5px;
+}
+
+.hard-skills-icons {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 40px;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.hard-skills-icon {
+  font-size: 30px;
+}
