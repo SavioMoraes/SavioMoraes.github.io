@@ -3,9 +3,11 @@
   background-color: black;
   justify-content: space-between;
   flex: 1;
-  padding: 12px;
-  position: relative;
   align-items: center;
+  margin-top: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .menu {
@@ -13,12 +15,15 @@
   display: flex;
   flex: 1;
   justify-content: flex-end;
+  color: white;
+  padding: 12px;
 }
 
 .logo {
   display: flex;
   font-size: 36px;
   color: white;
+  padding: 12px;
 }
 
 .mobile-menu {

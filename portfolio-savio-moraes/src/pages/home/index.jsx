@@ -1,24 +1,24 @@
 import React from 'react';
-import Header from './header';
-import Apresentation from './apresentation';
+// import Header from '../../components/header';
+// import Apresentation from '../../components/apresentation';
 import Main from './main';
-import Footer from './footer';
+// import Footer from '../../components/footer';
 import './home.css'
 
 function Home() {
   return (
     <div className="home">
       <div>
-        <Header />
-        <div>
+        {/* <Header /> */}
+        {/* <div>
           <Apresentation />
-        </div>
+        </div> */}
         <div>
           <Main />
         </div>
-        <div>
+        {/* <div>
           <Footer />
-        </div>
+        </div> */}
       </div>
     </div>
   )
