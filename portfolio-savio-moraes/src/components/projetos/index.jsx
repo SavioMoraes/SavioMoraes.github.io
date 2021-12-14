@@ -1,16 +1,15 @@
 import React from 'react';
 import './projetos.css';
-import shoppingCart from './images/imagem-project-shopping-cart.png';
+import shoppingCart from './images/shopping-cart.png';
 import pixelsArt from './images/imagem-projeto-pixels-art.png';
 import toDoList from './images/imagem-projeto-to-do-list.png';
-import movieCards from './images/imagem-project-movie-cards.png';
-import movieCardsLibrary from './images/imagem-project-movie-cards-library.png';
+import movieCardsLibrary from './images/movie-cards-library.png';
 
 
 function Projetos() {
   return (
     <div>
-      <h3>Alguns projetos que desenvolvi </h3>
+      <h3 className="projects-title">PROJETOS</h3>
       <div className="projects">
         <div className="project">
           <img src={shoppingCart} alt="project shopping-cart" />
@@ -22,12 +21,12 @@ function Projetos() {
           <img src={toDoList} alt="project toDoList" />
         </div>
         <div className="project">
-          <img src={movieCards} alt="project movieCards" />
-        </div>
-        <div className="project">
-          <img src={movieCardsLibrary} alt="project toDoList" />
+          <img src={movieCardsLibrary} alt="project movieCardsLibrary" />
         </div>
       </div>
+      <h3 className="projects-text">
+        clique aqui e veja outros projetos que desenvolvi
+      </h3>
       <hr/>
     </div>
   )
