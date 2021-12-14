@@ -1,7 +1,7 @@
 .apresentation {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
   background-color: rgb(102, 100, 100);
   color: rgba(250, 112, 112, 0.767);
@@ -10,13 +10,15 @@
   line-height: 1.5em;
   letter-spacing: 0.15em;
   font-size: 20px;
-  top: 100px;
-  margin-top: 100px;
-  padding-top: 60px;
+  margin-top: 48px;
 }
 
-.destaque {
-  font-size: 1.4em;
+.name {
+  margin-left: 180px;
+}
+
+.career {
+  margin-right: 180px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -25,23 +27,24 @@
     margin: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
     font-size: 15px;
     letter-spacing: 0.20em;
+    margin-top: 48px;
   }
+
   .name {
-    margin-left: 8%;
-    margin-right: 4%;
-    font-size: 15px;
+    margin-left: 80px;
   }
 
   .career {
-    margin-right: 8%;
+    margin-right: 80px;
+    font-size: 15px;
   }
 }
 
-@media only screen and (max-width: 512px) {
+@media only screen and (max-width: 720px) {
   .apresentation {
     width: 100%;
     margin: 0;
@@ -52,6 +55,7 @@
     line-height: 1em;
     letter-spacing: 0.17em;
     font-size: 18px;
+    margin-top: 48px;
   }
   .name {
     margin-bottom: -5px;
@@ -59,9 +63,16 @@
     margin-left: 0;
     margin-right: 0;
   }
-}
 
-@media only screen and (max-width: 465px) {
+  .career {
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 15px;
+  }
+}
+  
+
+/* @media only screen and (max-width: 512px) {
   .apresentation {
     width: 100%;
     margin: 0;
@@ -72,6 +83,7 @@
     line-height: 1em;
     letter-spacing: 0.17em;
     font-size: 18px;
+    margin-top: 48px;
   }
   .name {
     margin-bottom: -5px;
@@ -79,4 +91,4 @@
     margin-left: 0;
     margin-right: 0;
   }
-}
+} */

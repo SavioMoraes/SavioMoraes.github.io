@@ -10,20 +10,24 @@
   width: 100%;
 }
 
+.logo {
+  display: flex;
+  font-size: 24px;
+  color: white;
+  margin-top: 10px;
+  margin-left: 180px;
+  margin-bottom: 10px;
+}
+
 .menu {
   background-color: black;
   display: flex;
   flex: 1;
   justify-content: flex-end;
   color: white;
-  padding: 12px;
-}
-
-.logo {
-  display: flex;
-  font-size: 36px;
-  color: white;
-  padding: 12px;
+  margin-top: 10px;
+  margin-right: 180px;
+  margin-bottom: 10px;
 }
 
 .mobile-menu {
@@ -32,9 +36,10 @@
 
 .web-menu {
   display: flex;
+  font-size: 15px;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 1024px) {
   .mobile-menu {
     display: flex;
   }
@@ -45,5 +50,21 @@
 
   .logo {
     font-size: 24px;
+    margin-left: 80px;
+  }
+
+  .menu {
+    margin-right: 80px;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .logo {
+    font-size: 24px;
+    margin-left: 40px;
+  }
+
+  .menu {
+    margin-right: 40px;
   }
 }

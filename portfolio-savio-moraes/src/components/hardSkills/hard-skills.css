@@ -13,12 +13,14 @@
   flex-direction: row;
   flex-wrap: wrap;
   padding: 40px;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-bottom: 30px;
 }
 
 .hard-skills-icon {
   font-size: 30px;
+  padding-right: 40px;
+  padding-bottom: 20px;
 }
 
 .hard-skills {

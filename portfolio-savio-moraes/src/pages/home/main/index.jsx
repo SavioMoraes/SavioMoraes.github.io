@@ -1,7 +1,5 @@
 import React from 'react';
-import HardSkills from './hardSkills';
-import Projetos from './projetos';
-import Contatos from './contatos';
+import { HardSkills, Projetos, Contatos} from '../../../components'
 import './main.css';
 
 function Main() {
