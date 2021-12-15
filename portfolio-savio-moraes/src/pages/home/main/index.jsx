@@ -1,5 +1,6 @@
 import React from 'react';
-import { HardSkills, Projetos, Contatos} from '../../../components'
+import { HardSkills, Projetos } from '../../../components'
+// import { HardSkills, Projetos, Contatos} from '../../../components'
 import './main.css';
 
 function Main() {
@@ -8,12 +9,12 @@ function Main() {
       <section>
         <HardSkills />  
       </section>
-      <section id="projects">
+      <section>
         <Projetos />  
       </section>
-      <section id="contacts">
+      {/* <section id="contacts">
         <Contatos />  
-      </section>  
+      </section>   */}
     </div>
   )
 }

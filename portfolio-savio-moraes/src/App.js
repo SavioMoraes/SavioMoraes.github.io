@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Home, Perfil, Experiencias, NotFound } from './pages/';
-import { Header, Footer, Apresentation } from './components';
+import { Home, Perfil, Experiencias, NotFound, Projects } from './pages/';
+import { Header, Footer, Apresentation, Contatos } from './components';
 
 
 import './App.css';
@@ -15,8 +15,10 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/profile" element={ <Perfil /> } />
         <Route exact path="/experiences" element={ <Experiencias /> } />
+        <Route exact path="/projects" element={ <Projects /> } />
         <Route path="*" element={ <NotFound /> } />
       </Routes>
+      <Contatos />
       <Footer />
     </BrowserRouter>
   );
