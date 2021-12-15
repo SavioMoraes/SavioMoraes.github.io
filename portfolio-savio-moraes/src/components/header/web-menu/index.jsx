@@ -1,26 +1,25 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome } from '@fortawesome/free-solid-svg-icons';
 import { faMale } from '@fortawesome/free-solid-svg-icons';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
-import { faIdCard } from '@fortawesome/free-solid-svg-icons';
 import { faLaptop } from '@fortawesome/free-solid-svg-icons';
-// import profile from '../../../perfil';
 import './web.css';
 
 function Web() {
   return (
     <div className="web">
       <div className="web-options">
+          <a href="../../../pages/home"><FontAwesomeIcon icon={faHome} size="lg" className="web-icons" />Home</a>
+        </div>
+      <div className="web-options">
         <a href='../../../perfil'><FontAwesomeIcon icon={faMale} size="lg" className="web-icons" />Perfil</a>
       </div>
       <div className="web-options">
-        <a href="#works"><FontAwesomeIcon icon={faBriefcase} size="lg" className="web-icons"/>Experências</a>
+        <a href="../../../pages/experiencias"><FontAwesomeIcon icon={faBriefcase} size="lg" className="web-icons"/>Experências</a>
       </div>
       <div className="web-options">
-        <a href="#contacts"><FontAwesomeIcon icon={faIdCard} size="lg" className="web-icons"/>Contatos</a>
-      </div>
-      <div className="web-options">
-        <a href="#projects"><FontAwesomeIcon icon={faLaptop} size="lg" className="web-icons"/>Projetos</a>
+        <a href="../../../pages/projects"><FontAwesomeIcon icon={faLaptop} size="lg" className="web-icons"/>Projetos</a>
       </div>
     </div>
   )

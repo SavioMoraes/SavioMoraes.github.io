@@ -1,9 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWindowClose } from '@fortawesome/free-solid-svg-icons';
+import { faHome } from '@fortawesome/free-solid-svg-icons';
 import { faMale } from '@fortawesome/free-solid-svg-icons';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
-import { faIdCard } from '@fortawesome/free-solid-svg-icons';
 import { faLaptop } from '@fortawesome/free-solid-svg-icons';
 import './mobile.css';
 
@@ -17,16 +17,16 @@ function Mobile({isOpen, setIsOpen}) {
       
       <div className="mobile-options">
         <div className="mobile-option">
-          <a href="#profile"><FontAwesomeIcon icon={faMale} />Perfil</a>
+          <a href="../../../pages/home"><FontAwesomeIcon icon={faHome} />Home</a>
         </div>
         <div className="mobile-option">
-          <a href="#works"><FontAwesomeIcon icon={faBriefcase} />Experências</a>
+          <a href="../../../perfil"><FontAwesomeIcon icon={faMale} />Perfil</a>
         </div>
         <div className="mobile-option">
-          <a href="#contacts"><FontAwesomeIcon icon={faIdCard} />Contatos</a>
+          <a href="../../../pages/experiencias"><FontAwesomeIcon icon={faBriefcase} />Experências</a>
         </div>
         <div className="mobile-option">
-          <a href="#projects"><FontAwesomeIcon icon={faLaptop} />Projetos</a>
+          <a href="../../../pages/projects"><FontAwesomeIcon icon={faLaptop} />Projetos</a>
         </div>
       </div>
     </div>

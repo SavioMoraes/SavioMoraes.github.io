@@ -26,3 +26,19 @@
 .hard-skills {
   padding: 12px;
 }
+
+@media only screen and (max-width: 512px) {
+  .hard-skills-title {
+    font-size: 24px;
+  }
+
+  .hard-skills-icons {
+    padding: 20px;
+  }
+
+  .hard-skills-icon {
+    font-size: 20px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+  }
+}

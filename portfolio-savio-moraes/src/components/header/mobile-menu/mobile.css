@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   background-color: rgb(26, 24, 24);
-  height: 100vh;
+  height: 35vh;
   width: 60vw;
   position: absolute;
   right: 0;
@@ -24,6 +24,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-top: 100px;
   padding-top: 24px;
   justify-content: center;
   align-items: center;
@@ -43,4 +44,16 @@
 
 .mobile-option a:hover {
   color: red;
+}
+
+@media only screen and (max-width: 512px) {
+  .mobile-options {
+    margin-top: 60px;
+  }
+
+  .mobile-option {
+    font-size: 14px;
+    margin: 14px 0;
+    display: flex;
+  }
 }
