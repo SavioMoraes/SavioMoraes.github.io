@@ -3,6 +3,7 @@
   font-size: 20px;
   letter-spacing: 2px;
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 .projects {
@@ -17,11 +18,12 @@
   display: flex;
   justify-content: space-between;
   font-size: 30%;
-  padding: 50px;
+  padding: 20px;
+  width: 40%;
 }
 
 img {
-  width: 350px;
+  width: 100%;
 }
 
 .projects-text {
