@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWindowClose } from '@fortawesome/free-solid-svg-icons';
 import { faHome } from '@fortawesome/free-solid-svg-icons';
@@ -17,16 +18,17 @@ function Mobile({isOpen, setIsOpen}) {
       
       <div className="mobile-options">
         <div className="mobile-option">
-          <a href="../../../pages/home"><FontAwesomeIcon icon={faHome} />Home</a>
+          <NavLink to="/" activeClassName="selected">
+            <FontAwesomeIcon icon={faHome} />Home</NavLink>
         </div>
         <div className="mobile-option">
-          <a href="../../../perfil"><FontAwesomeIcon icon={faMale} />Perfil</a>
+          <NavLink to="/profile"><FontAwesomeIcon icon={faMale} />Perfil</NavLink>
         </div>
         <div className="mobile-option">
-          <a href="../../../pages/experiencias"><FontAwesomeIcon icon={faBriefcase} />Experências</a>
+          <NavLink to="/experiencies"><FontAwesomeIcon icon={faBriefcase} />Experências</NavLink>
         </div>
         <div className="mobile-option">
-          <a href="../../../pages/projects"><FontAwesomeIcon icon={faLaptop} />Projetos</a>
+          <NavLink to="/projects"><FontAwesomeIcon icon={faLaptop} />Projetos</NavLink>
         </div>
       </div>
     </div>

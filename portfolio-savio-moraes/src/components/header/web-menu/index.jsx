@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome } from '@fortawesome/free-solid-svg-icons';
 import { faMale } from '@fortawesome/free-solid-svg-icons';
@@ -10,16 +11,17 @@ function Web() {
   return (
     <div className="web">
       <div className="web-options">
-          <a href="../../../pages/home"><FontAwesomeIcon icon={faHome} size="lg" className="web-icons" />Home</a>
-        </div>
-      <div className="web-options">
-        <a href='../../../perfil'><FontAwesomeIcon icon={faMale} size="lg" className="web-icons" />Perfil</a>
+        <NavLink to="/" activeClassName="selected">
+          <FontAwesomeIcon icon={faHome} />Home</NavLink>
       </div>
       <div className="web-options">
-        <a href="../../../pages/experiencias"><FontAwesomeIcon icon={faBriefcase} size="lg" className="web-icons"/>Experências</a>
+        <NavLink to="/profile"><FontAwesomeIcon icon={faMale} />Perfil</NavLink>
       </div>
       <div className="web-options">
-        <a href="../../../pages/projects"><FontAwesomeIcon icon={faLaptop} size="lg" className="web-icons"/>Projetos</a>
+        <NavLink to="/experiencies"><FontAwesomeIcon icon={faBriefcase} />Experências</NavLink>
+      </div>
+      <div className="web-options">
+        <NavLink to="/projects"><FontAwesomeIcon icon={faLaptop} />Projetos</NavLink>
       </div>
     </div>
   )
