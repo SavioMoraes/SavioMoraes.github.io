@@ -1,3 +1,5 @@
+
+
 .projects-title {
   text-align: center;
   font-size: 20px;
@@ -32,4 +34,13 @@ img {
   font-weight: 400;
   text-align: center;
   padding-bottom: 12px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgba(250, 112, 112, 0.767);
+}
+
+.nav-link:hover {
+  color: red;
 }

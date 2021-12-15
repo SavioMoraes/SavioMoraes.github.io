@@ -17,17 +17,17 @@ function Mobile({isOpen, setIsOpen}) {
       </div>
       
       <div className="mobile-options">
-        <div className="mobile-option">
+        <div className="mobile-option" onClick = { () => setIsOpen(!isOpen)}>
           <NavLink to="/" activeClassName="selected">
             <FontAwesomeIcon icon={faHome} />Home</NavLink>
         </div>
-        <div className="mobile-option">
+        <div className="mobile-option" onClick = { () => setIsOpen(!isOpen)}>
           <NavLink to="/profile"><FontAwesomeIcon icon={faMale} />Perfil</NavLink>
         </div>
-        <div className="mobile-option">
+        <div className="mobile-option" onClick = { () => setIsOpen(!isOpen)}>
           <NavLink to="/experiencies"><FontAwesomeIcon icon={faBriefcase} />Experências</NavLink>
         </div>
-        <div className="mobile-option">
+        <div className="mobile-option" onClick = { () => setIsOpen(!isOpen)}>
           <NavLink to="/projects"><FontAwesomeIcon icon={faLaptop} />Projetos</NavLink>
         </div>
       </div>

@@ -4,6 +4,7 @@ import shoppingCart from './images/shopping-cart.png';
 import pixelsArt from './images/pixels-art.png';
 import toDoList from './images/to-do-list.png';
 import movieCardsLibrary from './images/movie-cards-library.png';
+import { NavLink } from 'react-router-dom';
 
 
 function Projetos() {
@@ -25,7 +26,7 @@ function Projetos() {
         </div>
       </div>
       <h3 className="projects-text">
-        clique aqui e veja outros projetos
+        clique <NavLink to="/projects" className="nav-link">aqui</NavLink> e veja outros projetos
       </h3>
       <hr/>
     </div>
