@@ -1,10 +1,11 @@
 import React from 'react';
+import Main from './main';
 import './perfil.css';
 
 function Perfil() {
   return (
     <div>
-      Página de Perfil de Sávio Moraes!
+      <Main />
     </div>
   )
 }
