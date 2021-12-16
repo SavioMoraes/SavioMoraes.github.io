@@ -46,6 +46,44 @@ p {
   padding: 50px;
 }
 
+.title-works {
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.span-works {
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 20px;
+  text-align: center;
+}
+
+.span-works-text {
+  color: rgb(250, 112, 112);
+}
+
+.trybe {
+  text-decoration: none;
+  color: rgba(0, 128, 0, 0.6);
+}
+
+.trybe:hover {
+  color: green;
+}
+
+.works-experiencies {
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 20px;
+  text-align: justify;
+}
+
+.works-experiencies-text {
+  letter-spacing: 1.3px;
+}
+
+
 @media only screen and (max-width: 820px) {
   .container-text {
     max-width: 70%;

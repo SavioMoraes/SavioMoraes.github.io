@@ -22,11 +22,16 @@ function Main() {
       </section>
       <section className="works">
         <div className="works-container">
-          <h5 className="title-works">Trabalhos anteriores</h5>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
+          <h4 className="title-works">Trabalhos anteriores</h4>
+          <div className="span-works">
+            <span className="span-works-text">Além de todos os projetos de softwares desenvolvidos na <a className="trybe" href="https://www.betrybe.com/" alt="site da Trybe" rel="noreferrer" target="_blank">Trybe</a>, escola de desenvolvimento Web Full Stack, que procura alinhar seus projetos com o que o estudante vai vivenciar no mercado de trabalho, também possuo as seguintes experiências profissionais:
+            </span>
+          </div>
+          <div className="works-experiencies">
+            <p className="works-experiencies-text">10/2018 a 05/2019 – Indra – Cargo: Suporte Técnico Operacional Pleno: Atendimento Nível 2 no Posto de Serviço de Apoio local na Petrobras. Hardware, Softwares, Redes, Manutenção, Impressoras e Videoconferência.</p>
+            <p className="works-experiencies-text">04/2017 a 07/2017 – Hospital do Coração de Balneário Camboriú – Cargo: Auxiliar de TI: Serviços de Suporte em TI: Redes e Telecom, Sistemas Operacionais da Microsoft, Pacote Office, ERP Tasy da Philips (cadastro no sistema, liberação de perfis, parametrização de dados no sistema à nível de conhecimento básico), suporte e configuração de impressoras HP e Zebra, CorelDRAW, Photoshop, Manutenção de Computadores, segurança da informação e gerenciadores de e-mail.</p>
+            <p className="works-experiencies-text">Freelancer: Já fiz serviços freelancer de criação (texto/redação) para sites de ‘comparação de tecnologias’, cadastro de conteúdo / SEO de páginas em WordPress e formatação e manutenção de computadores.</p>
+          </div>
         </div>
       </section>
     </div>
