@@ -15,16 +15,20 @@
   flex: 1;
 }
 
-.project {
+/* .project {
   display: flex;
   justify-content: space-around;
   font-size: 30%;
-  padding: 20px;
   width: 40%;
-}
+} */
+
+/* .project a {
+  padding: 20px;
+  justify-content: space-around;
+} */
 
 img {
-  width: 70%;
+  width: 10%;
 }
 
 .projects-text {
