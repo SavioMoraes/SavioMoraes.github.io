@@ -13,21 +13,29 @@ function Projetos() {
       <h3 className="projects-title">Projetos</h3>
       <div className="projects">
         <div className="project">
-          <img src={shoppingCart} alt="project shopping-cart" />
+          <a href="https://www.google.com.br/" target="_blank" rel="noreferrer">
+            <img src={shoppingCart} alt="project shopping-cart" />
+          </a>
         </div>
         <div className="project">
-        <img src={pixelsArt} alt="project pixelsArt" />
+          <a href="https://www.google.com.br/" target="_blank" rel="noreferrer">
+            <img src={pixelsArt} alt="project pixelsArt" />
+          </a>
         </div>
         <div className="project">
-          <img src={toDoList} alt="project toDoList" />
+          <a href="https://www.google.com.br/" target="_blank" rel="noreferrer">
+            <img src={toDoList} alt="project toDoList" />
+          </a>
         </div>
         <div className="project">
-          <img src={movieCardsLibrary} alt="project movieCardsLibrary" />
+          <a href="https://www.google.com.br/" target="_blank" rel="noreferrer">
+            <img src={movieCardsLibrary} alt="project movieCardsLibrary" />
+          </a>
         </div>
       </div>
-      <h3 className="projects-text">
+      {/* <h3 className="projects-text">
         clique <NavLink to="/projects" className="nav-link">aqui</NavLink> e veja outros projetos
-      </h3>
+      </h3> */}
       <hr/>
     </div>
   )

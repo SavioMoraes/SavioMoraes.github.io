@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Home, Perfil, NotFound, Projects } from './pages/';
+import { Home, Perfil, NotFound } from './pages/';
 import { Header, Footer, Apresentation, Contatos } from './components';
 
 
@@ -14,7 +14,6 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/profile" element={ <Perfil /> } />
-        <Route exact path="/projects" element={ <Projects /> } />
         <Route path="*" element={ <NotFound /> } />
       </Routes>
       <Contatos />
