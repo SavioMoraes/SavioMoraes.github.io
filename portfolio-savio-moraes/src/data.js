@@ -1,26 +1,26 @@
 const projects = [
   {
     title: 'Shopping Cart',
-    gitHub: 'From the Author of Raibow Six',
-    storyline: 'Projeto simulando um carrinho de compras, em JavaScript, fazendo requisição à API do Mercado Libre',
+    gitHub: 'gitHubPages/shopping_cart',
+    storyline: 'Projeto simulando um carrinho de compras, em JavaScript, fazendo requisição à API do Mercado Libre, para buscar os produtos, que ao serem selecionados, vão pro carrinho de compras, que calcula e exibe o valor total dinamicamente.',
     imagePath: 'images/shopping-cart.png',
   },
   {
-    title: "At World's End",
-    gitHub: 'Pirates of the Caribbean',
-    storyline: 'Captain Barbossa, Will Turner and Elizabeth Swann must sail off the edge of the map, navigate treachery and betrayal, find Jack Sparrow, and make their final alliances for one last decisive battle.',
+    title: "Pixels Art",
+    gitHub: 'gitHubPages/pixels_art',
+    storyline: 'Nesse projeto, Pixels Art, criado com JavaScript, HTML e CSS, é gerado a cada refresh da página uma paleta com 4 cores rgb aleatoriamente! Também é possível escolher o tamanho do painel de pintura e apagá-lo quando necessário!',
     imagePath: 'images/pixels-art.png',
   },
   {
-    title: 'The Hunger Games',
-    gitHub: 'Hope -The End',
-    storyline: 'Katniss Everdeen e seus aliados lançam um ataque ao Capitólio para tentar libertar Panem e assassinar o presidente Snow.',
+    title: 'To Do List',
+    gitHub: 'gitHubPages/to_do_list',
+    storyline: 'O projeto To Do List fo criado com HTML, CSS e JavaScript e traz uma lista de tarefas, com posibilidade de adicionar tarefa, marcar como feita, definir prioridades e deleção de tarefas! Além disso, o botão de salvar tarefas utiliza o local storage!',
     imagePath: 'images/to-do-list.png',
   },
   {
-    title: 'Kingsglaive',
-    gitHub: 'Final Fantasy XV',
-    storyline: 'King Regis, who oversees the land of Lucis, commands his army of soldiers to protect the kingdom from the Niflheim empire\'s plans to steal the sacred crystal.',
+    title: 'Movie Cards Library',
+    gitHub: 'gitHubPages/movie_cards_library',
+    storyline: 'O projeto Movie Cards Library, feito em React e estilizado com CSS flex-box, traz uma biblioteca de filmes que são renderizados dinamicamente! São utilizados props na troca de informações entre os componentes e propTypes para checagem dos tipos de dados.',
     imagePath: 'images/movie-cards-library.png',
   },
 ];
