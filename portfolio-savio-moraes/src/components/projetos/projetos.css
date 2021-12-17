@@ -4,58 +4,11 @@
   letter-spacing: 2px;
   font-weight: 400;
   text-transform: uppercase;
-  padding-bottom: 40px;
 }
 
 .projects {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
   flex: 1;
-}
-
-/* .project {
-  display: flex;
-  justify-content: space-around;
-  font-size: 30%;
-  width: 40%;
-} */
-
-/* .project a {
-  padding: 20px;
-  justify-content: space-around;
-} */
-
-img {
-  width: 10%;
-}
-
-.projects-text {
-  font-size: 16px;
-  letter-spacing: 2px;
-  font-weight: 400;
-  text-align: center;
-  padding-bottom: 12px;
-  padding-top: 30px;
-}
-
-.nav-link {
-  text-decoration: none;
-  color: rgba(250, 112, 112, 0.767);
-}
-
-.nav-link:hover {
-  color: red;
-}
-
-@media only screen and (max-width: 512px) {
-  .project {
-    padding: 20px;
-    width: 40%;
-  }
-  
-  img {
-    width: 100%;
-  }
 }

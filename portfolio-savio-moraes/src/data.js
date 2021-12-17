@@ -1,8 +1,8 @@
 const projects = [
   {
-    title: 'Without Remorse',
+    title: 'Shopping Cart',
     gitHub: 'From the Author of Raibow Six',
-    storyline: 'Kelly must fight without any remorse against his enemies if he wants to avoid disaster and expose the powerful figures behind the conspiracy.',
+    storyline: 'Projeto simulando um carrinho de compras, em JavaScript, fazendo requisição à API do Mercado Libre',
     imagePath: 'images/shopping-cart.png',
   },
   {

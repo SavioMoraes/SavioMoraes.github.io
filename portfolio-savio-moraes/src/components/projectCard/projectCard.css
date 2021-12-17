@@ -10,9 +10,9 @@
   width: 300px;
 }
 
-/* .project-card-image {
+.project-card-image {
   width: 100%;
-} */
+}
 
 .project-card-body {
   flex: 1 1 auto;
@@ -36,4 +36,5 @@
 .project-card-storyline {
   font-size: 14px;
   text-align: justify;
+  color: black;
 }

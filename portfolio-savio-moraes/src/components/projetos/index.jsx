@@ -6,8 +6,11 @@ import projects from '../../data';
 class Projetos extends React.Component {
   render() {
     return (
-      <div className="projects">
-        <ProjectList projects={ projects } />
+      <div>
+        <h4 className="projects-title">Projetos</h4>
+        <div className="projects">
+          <ProjectList projects={ projects } />
+        </div>
       </div>
     )
   }
