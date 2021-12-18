@@ -14,7 +14,7 @@ const projects = [
   {
     title: 'To Do List',
     gitHub: 'gitHubPages/to_do_list',
-    storyline: 'O projeto To Do List fo criado com HTML, CSS e JavaScript e traz uma lista de tarefas, com posibilidade de adicionar tarefa, marcar como feita, definir prioridades e deleção de tarefas! Além disso, o botão de salvar tarefas utiliza o local storage!',
+    storyline: 'O projeto To Do List foi criado com HTML, CSS e JavaScript e traz uma lista de tarefas, com posibilidade de adicionar tarefa, marcar como feita, definir prioridades e deleção de tarefas! Além disso, o botão de salvar tarefas utiliza o local storage!',
     imagePath: 'images/to-do-list.png',
   },
   {
